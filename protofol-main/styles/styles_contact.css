@@ -1,0 +1,53 @@
+body{
+    background-image: url(/protofol-main/styles/assests/backgr.jpg);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Content3{
+    position: relative;
+    top: 100px;
+}
+
+    .Title3{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: font;
+    text-align: center;
+    }
+
+    .Rimg1{
+    position: relative;
+    left: 590px;
+    }
+
+    .Rimg2{
+    position: relative;
+    left: 510px;
+    top: 20px;
+    }
+
+    .textC3-1{
+    position: relative;
+    top: -80px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: font;
+    text-align: center;
+    }
+
+.email1{
+    font-family: font;
+    color: rgb(128, 198, 255);
+}
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ @font-face {
+    font-family: font;
+    src: url(fonts/Lexend-Regular.ttf);
+}
