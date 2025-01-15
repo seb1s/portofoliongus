@@ -14,9 +14,6 @@
     border-radius: 0px 0px 20px 20px;
 }
 
-/* Add a black background color to the top navigation */
-
-  
   /* Style the links inside the navigation bar */
   .navbar a {
     float: left;
@@ -25,6 +22,8 @@
     padding: 15px 30px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 35px;
+    transition: 0.5s;
   }
   
   /* Change the color of links on hover */
@@ -52,6 +51,5 @@
       z-index: 10;
       font-family: font;
   }
-
 
   }

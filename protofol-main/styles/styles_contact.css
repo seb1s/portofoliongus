@@ -4,11 +4,13 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 .Content3{
     position: relative;
     top: 100px;
+    animation: bottomIn 2s ease forwards;
 }
 
     .Title3{
@@ -47,7 +49,30 @@ body{
     scroll-behavior: smooth;
  }
 
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #4d4d4d;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 20px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+    border-radius: 20px;
+}
+
  @font-face {
     font-family: font;
     src: url(fonts/Lexend-Regular.ttf);
+}
+
+@keyframes bottomIn{
+    from {transform: translateY(1500px);}
+    to {transform: translateY(0);}
 }
